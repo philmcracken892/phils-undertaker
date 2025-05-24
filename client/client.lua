@@ -362,7 +362,7 @@ RegisterNetEvent('phils-bounty:client:addnpc', function(data)
     local entityExists = DoesEntityExist(holding)
     local isAPed = IsEntityAPed(holding)
     local notPlayer = holding ~= ped
-    local isHumanPed = pedType == 4 -- Human ped type
+    local isHumanPed = pedType == 4 or pedType == 5-- Human ped type
     local isValidPed = entityExists and isAPed and notPlayer and isHumanPed
     
     
