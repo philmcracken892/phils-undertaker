@@ -1,0 +1,3 @@
+['undertaker'] = {
+		{ name = 'coffin', amount = 10, price = 10, buyPrice = 4.50, maxStock = 100, minQuality = 50, restock = 10 },
+	},
